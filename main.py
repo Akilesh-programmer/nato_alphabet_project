@@ -17,3 +17,4 @@ letters = [letter for letter in user_input]
 code_word = [value for (key, value) in nato_dict.items() if key in letters]
 # Printing the final output.
 print(code_word)
+
